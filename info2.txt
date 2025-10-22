@@ -1,0 +1,13 @@
+// git download 
+// git hub 
+// username and email configure
+
+local ----------------------> github 
+
+echo "# gitPractice" >> README.md
+git init ---> folder is intialized with git tool
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/chinmayd1/gitPractice.git
+git push -u origin main
