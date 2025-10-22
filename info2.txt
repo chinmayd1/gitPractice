@@ -3,11 +3,15 @@
 // username and email configure
 
 local ----------------------> github 
-
-echo "# gitPractice" >> README.md
+echo "# gitPractice" >> README.md (create a readme file)
 git init ---> folder is intialized with git tool
-git add .
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/chinmayd1/gitPractice.git
-git push -u origin main
+git add . ---> working repo  to staging
+git commit -m "first commit" --> staging to local repository
+
+// 10 and 11 are one time command only
+git branch -M main --> branch (only one time command)
+git remote add origin https://github.com/chinmayd1/gitPractice.git ---local machine ---> github (one time command)
+git push -u origin main ---> local machine code move to github url
+
+
+// working -------> staging -------local repo ---------> remote repo

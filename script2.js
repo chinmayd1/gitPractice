@@ -1,0 +1,1 @@
+console.log("i am creating the second js file ...")
